@@ -79,5 +79,5 @@ document.body.innerHTML += `
 
 var i;
 for (i = 0; i < devdata.anggota.length; i++) {
-    document.body.innerHTML += '<input id="send_data_sg "type="submit" value="Trigger send '+devdata.anggota[i].nama+'" onclick="throw_data_sg('+"'"+devdata.anggota[i].nama+"'"+');">'
+    document.body.innerHTML += '<input id="send_data_sg "type="submit" value="Trigger send '+devdata.anggota[i].nama+'" onclick="throw_data_sg('+"'"+devdata.anggota[i].nama+"'"+');"><br>'
 }
